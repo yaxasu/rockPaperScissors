@@ -1,15 +1,43 @@
-.game-container {
+body{
+    background-color:lightsteelblue;
+}
+
+*{
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+h1{
     text-align: center;
-    margin-top: 100px;
 }
 
-button {
-    margin: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-}
-
-.result {
+.choices{
+    display: flex;
+    justify-content: center;
     margin-top: 50px;
-    font-size: 18px;
+}
+
+#rock,#paper,#scissors{
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: darkslategray;
+    color: white;
+    border-radius: 5px;
+}
+
+.result{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+    flex-direction: column;
+}
+
+.parent{
+    display: flex;
+}
+
+.outcome{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 45px;
+    flex-direction: column;
 }
